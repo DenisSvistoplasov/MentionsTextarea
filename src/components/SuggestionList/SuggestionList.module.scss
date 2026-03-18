@@ -1,0 +1,28 @@
+.list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 300px;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+
+.button{
+  display: block;
+  width: 100%;
+  padding: 5px 5px 5px 8px;
+  border-radius: 0;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+
+  &.active, &:hover{
+    background-color: #aaf;
+  }
+}
